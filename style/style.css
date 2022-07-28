@@ -1,0 +1,31 @@
+.item{
+    cursor: pointer;
+}
+
+.cntent{
+    background-color: #fff;
+    bottom: 5%;
+    left: 10%;
+    width: 80%;
+}
+
+
+.lightbox{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.lighetboxinner{
+height: 50%;
+width: 500px;
+background-image: url(../imgs/project-1.jpg);
+background-size: cover;
+}
+.lighetboxinner i{
+    cursor: pointer;
+    font-size:20px;
+}
